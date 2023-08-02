@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GamesStore from "./components/GamesStore";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import './components/style.css'
+
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import EducationsStore from "./components/EducationsStore";
+import MoviesStore from "./components/MoviesStore";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <NavBar/>
+      <Switch>
+      <Route extra path='/moviesSession'> <MoviesStore/></Route>
+        
+      <Route extra path='/educationSession'><EducationsStore/></Route>
+        <Route extra path='/gameSession'> <GamesStore/></Route>
+        <Route extra path='/'> <Home/></Route>
+        
+       
+     
+      </Switch>
+      </Router>
+    </>
   );
 }
 

@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Fullscreen {
+    background-image: url('../Images/img1.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: repeat;
+    overflow-y: hidden;
+    
+  }
+  .MTitle{
+    color: whitesmoke;
+    width: fit-content;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: monospace;
+    cursor: pointer;
+  }
+  .MTitle:hover{
+      color: #1c1259;
+  }
+  .MovieTitle{
+    background-image: url('../Images/MovieIcon.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: repeat;
+    overflow-y: hidden;
+  }
+  #Gems{
+    font-family: monospace;
+    color: #c3195d;
+  }
+  #Gems:hover{
+    color: #8594e4;
+  }
+
+  .homemain {
+    background-image: url('../Images/home1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    
+  }
+  .p1{
+    color: #f50679;
+    font-size: 23px;
+    font-family: monospace;
+    text-align: justify;
+    padding: 29px;
+  }
+  .p1:hover{
+    background-color: #1c1259;
+    color: white;
+    border-radius: 20px;
+  }
+  #paragraph{
+    padding: 89px
+  }
+  .hometitle{
+    
+    color: #f67280;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto; 
+    cursor: pointer;
+    font-family: monospace;
+  }
+  .hometitle:hover{
+        color:#93deff ;
+        border-bottom: 2px solid #f67280;
+  }
+  .gems1{
+    color: #93deff;
+    
+  }
+  .gems1:hover{
+    color: #f67280;
+   
+  }
+.card{
+    margin: 15px;
+    background-color: #d15a7c;
+    border: 4px solid #800000;
+  
+  
+}
+.eduScreen{
+  background-image: url('../Images/home4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   overflow-y: hidden;
+  
+}
+.container {
+    height: 1000px; /* You can adjust the height as per your preference */
+    overflow: auto;
+    
+    
+  }
+  .container::-webkit-scrollbar {
+    width: 0; /* Set the width to zero to hide the scrollbar */
+  }
+p{
+    color: #ededed;
+}
+.title{
+    color: whitesmoke;
+    width: fit-content;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: monospace;
+
+}
+.Edutitle{
+  color: whitesmoke;
+    width: fit-content;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: monospace;
+    cursor: pointer;
+}
+.Edutitle:hover{
+    color: #347474;
+}
+#edu{
+  height: 1000px;
+  overflow: auto;
+}
+.title:hover{
+    color: #bbe4e9;
+    cursor: pointer;
+ 
+}
+.card-title{
+    color: #1c1259;
+    
+}
+.card-title:hover{
+    color: #fffbe0;
+    
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #62013c;
+    color: #d15a7c;
+    border: 4px solid white;
+}
+h3{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.btn{
+    text-align: center;
+    border: 2px solid black;
+    background-color: #008B8B;
+    color: white
+}
+.btn:hover{
+    background-color: white;
+    color: #008B8B;
+    transition:  0.5s ease-in-out;
+}
+#navbarid {
+    color: #41b1ce;
+}
+#navbarid:hover{
+  color: #e9379fed;
+  border-bottom:2px solid#41b1ce ;
+}
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  /* Add styles specific to larger screens here */
+  .Fullscreen {
+    background-position: right;
+  }
+  .MovieTitle {
+    background-position: right;
+  }
+}
+
+/* Styles for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 767px) {
+  .MTitle {
+    font-size: 18px;
+  }
+  .hometitle {
+    font-size: 18px;
+  }
+  .p1 {
+    font-size: 15px;
+    height: 424px;
+    padding: 27px;
+    text-align: justify;
+    margin-bottom: 65px;
+}
+}
+
+
+
+
+
