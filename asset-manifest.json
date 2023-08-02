@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Gems/static/css/main.79a02008.css",
-    "main.js": "/Gems/static/js/main.0c9afc6d.js",
+    "main.css": "/Gems/static/css/main.5b8d1c1c.css",
+    "main.js": "/Gems/static/js/main.8fc8a198.js",
     "static/js/787.3259b6d5.chunk.js": "/Gems/static/js/787.3259b6d5.chunk.js",
     "static/media/MovieIcon.jpg": "/Gems/static/media/MovieIcon.3a88698c6a6e65c7bd6d.jpg",
     "static/media/home1.jpg": "/Gems/static/media/home1.42347f75056e538c32ff.jpg",
     "static/media/home4.jpg": "/Gems/static/media/home4.3f0dad65d6bace905361.jpg",
     "static/media/img1.jpg": "/Gems/static/media/img1.fc52a918c5d641f2d678.jpg",
     "index.html": "/Gems/index.html",
-    "main.79a02008.css.map": "/Gems/static/css/main.79a02008.css.map",
-    "main.0c9afc6d.js.map": "/Gems/static/js/main.0c9afc6d.js.map",
+    "main.5b8d1c1c.css.map": "/Gems/static/css/main.5b8d1c1c.css.map",
+    "main.8fc8a198.js.map": "/Gems/static/js/main.8fc8a198.js.map",
     "787.3259b6d5.chunk.js.map": "/Gems/static/js/787.3259b6d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79a02008.css",
-    "static/js/main.0c9afc6d.js"
+    "static/css/main.5b8d1c1c.css",
+    "static/js/main.8fc8a198.js"
   ]
 }
