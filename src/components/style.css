@@ -3,15 +3,14 @@
     margin: 0;
 }
 .Fullscreen {
-    background-image: url('../Images/img1.jpg');
-    background-size: cover;
-    background-position: right;
-    background-repeat: repeat;
-    background-attachment: fixed;
-   
-    
-    
-  }
+  background-image: url('../Images/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  
+}
   .MTitle{
     color: whitesmoke;
     width: fit-content;
@@ -30,6 +29,7 @@
     background-repeat: repeat;
     overflow-y: hidden;
     background-attachment: fixed;
+    height: 100vh;
     
 
   }
@@ -100,12 +100,12 @@
   background-position: center;
   background-repeat: no-repeat;
    overflow-x: hidden;
-   background-attachment: fixed
+  height: 100vh;
   
 }
 .container {
-    height: 1000px; /* You can adjust the height as per your preference */
-    overflow: auto;
+  height: 80vh;
+  overflow: auto;
     
     
   }
@@ -135,7 +135,7 @@ p{
     color: #347474;
 }
 #edu{
-  height: 1000px;
+  height: 80vh;
   overflow: auto;
 }
 .title:hover{
@@ -181,17 +181,7 @@ h3{
   color: #e9379fed;
   border-bottom:2px solid#41b1ce ;
 }
-/* Styles for larger screens */
-@media screen and (min-width: 768px) {
-  /* Add styles specific to larger screens here */
-  .Fullscreen {
-    background-size: 100% auto; /* Adjust the background size for smaller screens */
-    background-position: top; /* You can change the position as per your preference */
-  }
-  .MovieTitle {
-    background-position: right;
-  }
-}
+
 
 /* Styles for smaller screens (e.g., mobile devices) */
 @media (max-width: 767px) {
@@ -207,20 +197,9 @@ h3{
     padding: 27px;
     text-align: justify;
   }
-  .Fullscreen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+ 
 }
-.Fullscreen {
-  height: auto; /* Allow the section to resize based on content for smaller screens */
 
-  background-position: top; /* You can change the position as per your preference */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 @media (max-width: 440px) {
   .homemain {
@@ -234,33 +213,18 @@ h3{
   .p1{
     font-size: 10px;
     height: 241px;
-    padding: 22px;
+    padding: 14px;
     text-align: justify;
   }
-  .Fullscreen {
-    height: auto; /* Allow the section to resize based on content for smaller screens */
-    background-size: contain; /* Adjust the background size for smaller screens */
-    background-position: top; /* You can change the position as per your preference */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+ 
 }
 /* Styles for screens with a width of 1080px and height of 2340px */
-@media (width: 1080px) and (height: 2340px) {
-  .Fullscreen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-attachment: fixed;
-  }
-}
+
 @media (max-width: 350px) {
   .p1{
     font-size: 10px;
     height: 241px;
-    padding: 1px;
+    padding: 5px;
     width: 169px;
     text-align: center;
   }
