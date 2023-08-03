@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: right;
     background-repeat: repeat;
+    background-attachment: fixed;
    
     
     
@@ -28,6 +29,9 @@
     background-position: right;
     background-repeat: repeat;
     overflow-y: hidden;
+    background-attachment: fixed;
+    
+
   }
   #Gems{
     font-family: monospace;
@@ -96,6 +100,7 @@
   background-position: center;
   background-repeat: no-repeat;
    overflow-x: hidden;
+   background-attachment: fixed
   
 }
 .container {
@@ -217,7 +222,7 @@ h3{
   background-repeat: no-repeat;
 }
 
-@media (max-width: 344px) {
+@media (max-width: 440px) {
   .homemain {
     height: auto; /* Allow the section to resize based on content for smaller screens */
 
@@ -228,8 +233,9 @@ h3{
   }
   .p1{
     font-size: 10px;
-    padding: 19px;
-    height: 298px;
+    height: 241px;
+    padding: 22px;
+    text-align: justify;
   }
   .Fullscreen {
     height: auto; /* Allow the section to resize based on content for smaller screens */
@@ -246,8 +252,21 @@ h3{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
   }
 }
+@media (max-width: 350px) {
+  .p1{
+    font-size: 10px;
+    height: 241px;
+    padding: 1px;
+    width: 169px;
+    text-align: center;
+  }
+}
+
+
 
 
 
