@@ -5,16 +5,29 @@ const MoviesStore = () => {
   const articles = [
     {
         "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
+            "id": null,
+            "name": "Gulte"
         },
-        "author": "TIMESOFINDIA.COM",
-        "title": "WHAT? Adil Hussain says a scene in 'Sholay' was copied from 'Once Upon A Time in the West'; netizens mock the actor - Times of India",
-        "description": "What if someone told you that a part of the Amitabh Bachchan, Dharmendra, Sanjeev Kumar and Amjad Khan starrer cult film 'Sholay' was lifted from a Hollywood movie? That's correct! Actor Adil Hussain has posted a video sequence from Sergio Leone's 19",
-        "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/what-adil-hussain-says-a-scene-in-sholay-was-copied-from-once-upon-a-time-in-the-west-netizens-mock-the-actor/videoshow/102335086.cms",
-        "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-102335086,imgsize-113138.cms",
-        "publishedAt": "2023-08-02T03:31:11Z",
-        "content": "Aug 02, 2023, 09:01AM ISTSource: etimes.inWhat if someone told you that a part of the Amitabh Bachchan, Dharmendra, Sanjeev Kumar and Amjad Khan starrer cult film 'Sholay' was lifted from a Hollywood… [+1187 chars]"
+        "author": "Satya B",
+        "title": "Spark L.I.F.E Teaser: An Action Packed Thriller - Gulte",
+        "description": "https://youtu.be/q6wqalb3IZE Spark the L.I.F.E starring the Mehreen Pirzada, Rukshar and new entrant Vikranth got solid buzz with the talented cast and crew. Recently makers unveiled the film's first look and it impressed everyone with intense poster. Now tod…",
+        "url": "https://www.gulte.com/movienews/252864/spark-l-i-f-e-teaser-an-action-packed-thriller",
+        "urlToImage": "https://cdn.gulte.com/wp-content/uploads/2023/08/Spark.jpeg",
+        "publishedAt": "2023-08-03T03:35:03Z",
+        "content": "Spark the L.I.F.E starring the Mehreen Pirzada, Rukshar and new entrant Vikranth got solid buzz with the talented cast and crew. Recently makers unveiled the film’s first look and it impressed everyo… [+1152 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Hindustan Times"
+        },
+        "author": "Tuhin Das Mahapatra",
+        "title": "Kanye West’s ‘wife’ Bianca Censori looks miserable in Italy - Hindustan Times",
+        "description": "Bianca Censori, the architect married to Kanye West, looked tired and unhappy as she joined him in Florence, Italy.",
+        "url": "https://www.hindustantimes.com/entertainment/music/kanye-west-s-wife-bianca-censori-looks-glum-in-a-bikini-top-and-barefoot-in-italy-101691029949535.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/03/1600x900/ezgif-1-9703724643_1691038810409_1691038820555.jpg",
+        "publishedAt": "2023-08-03T02:59:53Z",
+        "content": "Bianca Censori, the Australian architect who married Kanye West in a symbolic ceremony earlier this year, looked tired and unhappy as she joined the rapper in Florence, Italy, on Tuesday.\r\nKanye West… [+1999 chars]"
     },
     {
         "source": {
@@ -22,25 +35,12 @@ const MoviesStore = () => {
             "name": "Hindustan Times"
         },
         "author": "HT Entertainment Desk",
-        "title": "Rocky Aur Rani Kii Prem Kahaani box office: Ranveer and Alia film earns ₹60 cr - Hindustan Times",
-        "description": "Rocky Aur Rani Kii Prem Kahaani box office: The Karan Johar film now stands at ₹60 crore after five days of its release. | Bollywood",
-        "url": "https://www.hindustantimes.com/entertainment/bollywood/rocky-aur-rani-kii-prem-kahaani-box-office-day-5-collection-alia-bhatt-ranveer-singh-101690943696491.html",
-        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/02/1600x900/rocky_aur_rani_kii_prem_kahaani_box_office_1690944070159_1690944070403.jpg",
-        "publishedAt": "2023-08-02T03:21:09Z",
-        "content": "Rocky Aur Rani Kii Prem Kahaani box office: The Ranveer Singh and Alia Bhatt film continues to remain stable during the weekdays. According to a report on Sacnilk.com, the Karan Johar directorial had… [+2137 chars]"
-    },
-    {
-        "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
-        },
-        "author": "etimes.in",
-        "title": "Bigg Boss OTT 2: Janardhan Dhurve's Bhavishyavani: Elvish Yadav will get married at 30, Avinash Sachdev h - Times of India",
-        "description": "Bebika Dhurve's father enters the house and all the contestants sat down with him to know about their future. His bhavishyavani for Elvish and Avinash",
-        "url": "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-ott-2-janardhan-dhurves-bhavishyavani-elvish-yadav-will-get-married-at-30-avinash-sachdev-had-an-abortion-in-the-past/articleshow/102333880.cms",
-        "urlToImage": "https://static.toiimg.com/thumb/msid-102334489,width-1070,height-580,imgsize-1286039,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        "publishedAt": "2023-08-02T03:19:00Z",
-        "content": "#BiggBossOTT2: What Elvish said about Bebika was wrong but his intentions are not bad, says Aashika Bhatia#BiggBossOTT2: What Elvish said about Bebika was wrong but his intentions are not bad, says A… [+256 chars]"
+        "title": "Arbaaz Khan says Helen never tried to ‘separate' the family - Hindustan Times",
+        "description": "Arbaaz Khan has spoken about his bond with step-mother Helen and how her entry into dad's Salim Khan's life first affected the family. | Bollywood",
+        "url": "https://www.hindustantimes.com/entertainment/bollywood/arbaaz-khan-says-helen-never-tried-to-separate-the-family-today-all-of-them-are-inseparable-101691029667565.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/03/1600x900/arbaaz_khan_1691030146716_1691030146909.png",
+        "publishedAt": "2023-08-03T02:47:25Z",
+        "content": "Actor Arbaaz Khan has opened up about the bond he shared with Helen, who is his father Salim Khan's second wife. The veteran writer was already married to Arbaaz's mother Salma when he decided to get… [+1720 chars]"
     },
     {
         "source": {
@@ -48,38 +48,25 @@ const MoviesStore = () => {
             "name": "PINKVILLA"
         },
         "author": "Apeksha Juneja",
-        "title": "PICS: Priyanka Chopra, daughter Malti Marie 'look for super moon' while taking stroll on London streets - PINKVILLA",
-        "description": "Priyanka Chopra Has Shared New Pictures With Her Daughter Malti Marie. The Mother-daughter Duo Strolled The Streets Of London While Searching For The Super Moon On The Night Of August 1.",
-        "url": "https://www.pinkvilla.com/entertainment/news/pics-priyanka-chopra-daughter-malti-marie-look-for-super-moon-while-taking-stroll-on-london-streets-1233434",
-        "urlToImage": "https://www.pinkvilla.com/images/2023-08/760917829_priyanka-chopra-with-malti-marie.jpg",
-        "publishedAt": "2023-08-02T02:43:10Z",
-        "content": "Priyanka Chopra and Nick Jonas are one of the most loved couples in the industry. They welcomed their first child Malti Marie in January 2022, and are currently busy enjoying parenthood. Priyanka oft… [+2127 chars]"
+        "title": "Nitin Desai passes away: Art director’s initial postmortem reveals ‘death due to hanging’ - PINKVILLA",
+        "description": "Renowned Art Director Nitin Desai Passed Away On Wednesday, At The Age Of 57. He Was Reportedly Found Hanging In His Own Studio, And Now The Police Have Revealed The Postmortem Findings.",
+        "url": "https://www.pinkvilla.com/entertainment/news/nitin-desai-passes-away-art-directors-initial-postmortem-reveals-death-due-to-hanging-1233632",
+        "urlToImage": "https://www.pinkvilla.com/images/2023-08/387747771_nitin-desai-postmortem.jpg",
+        "publishedAt": "2023-08-03T02:45:04Z",
+        "content": "Content Warning: This article contains references to suicide.\r\nCelebrated art director and producer Nitin Chandrakant Desais death on Wednesday morning shocked the entire film industry. Desai had a n… [+2453 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Hindustan Times"
+            "name": "PINKVILLA"
         },
-        "author": "HT Entertainment Desk",
-        "title": "RIP Angus Cloud: Zendaya, Sydney Sweeney remember their Euphoria co-star - Hindustan Times",
-        "description": "Both Zendaya and Sydney Sweeney have written heartbreaking notes, remembering their time with the late Euphoria actor Angus Cloud.  | Hollywood",
-        "url": "https://www.hindustantimes.com/entertainment/hollywood/rip-angus-cloud-zendaya-sydney-sweeney-remember-how-their-euphoria-costar-101690941506268.html",
-        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/02/1600x900/angus_cloud_zendaya_1690942816612_1690942816904.jpg",
-        "publishedAt": "2023-08-02T02:29:51Z",
-        "content": "Zendaya and Sydney Sweeney have paid heartbreaking tributes to late actor and their Euphoria co-star Angus Cloud who died of unknown reasons at just the age of 25. He was found dead at his family hom… [+2195 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "India.com"
-        },
-        "author": "ANI",
-        "title": "Vaani Kapoor Turns Showstopper In Blazing Red Hot Lehenga-Choli At India Couture Week 2023 - Zee News",
-        "description": "The India Couture Week is near its closing but the energy and surprise of collections is not going to end any sooner. The designers and their ensembles again left the audience awestruck on Tuesday night. On day 8th of India Couture Week, designer Isha Jajodia…",
-        "url": "https://zeenews.india.com/people/vaani-kapoor-turns-showstopper-in-blazing-red-hot-lehenga-choli-at-india-couture-week-2023-2643489.html",
-        "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/08/02/1254045-vaani-kapoor.jpg",
-        "publishedAt": "2023-08-02T02:17:38Z",
-        "content": "New Delho: The India Couture Week is near its closing but the energy and surprise of collections is not going to end any sooner. The designers and their ensembles again left the audience awestruck on… [+1505 chars]"
+        "author": "Anushka Solanki",
+        "title": "Lizzo Lawsuit: Dancers come public about working with the singer Lizzo would threaten us if .. - PINKVILLA",
+        "description": "The Lizzo Lawsuit Drama Does Not Seem To Be Settling Anytime Soon. Arianna Davis And Crystal Williams Sat With TMZ To Spill The Beans On Working With Lizzo. Read On.",
+        "url": "https://www.pinkvilla.com/entertainment/hollywood/lizzo-lawsuit-dancers-come-public-about-working-with-the-singer-lizzo-would-threaten-us-if-1233627",
+        "urlToImage": "https://www.pinkvilla.com/images/2023-08/199765429_lizzo-lawsuit.jpg",
+        "publishedAt": "2023-08-03T02:29:38Z",
+        "content": "The Lizzo lawsuit story seems to be only developing further and does not seem to be resting anytime soon. Just as a big industry director came forward to expose the star, two of the former dancers wh… [+2020 chars]"
     },
     {
         "source": {
@@ -87,25 +74,12 @@ const MoviesStore = () => {
             "name": "India Today"
         },
         "author": "Janani K",
-        "title": "'BRO' box office collection Day 5: Pawan Kalyan's film earns Rs 70 crore in India - India Today",
-        "description": "Pawan Kalyan and Sai Dharam Tej's 'BRO' surpasses Rs 70 crore in India. However, the box office collection on Day 5 has declined further.",
-        "url": "https://www.indiatoday.in/movies/regional-cinema/story/bro-box-office-collection-day-5-pawan-kalyan-sai-dharam-tej-film-earns-rs-70-crore-in-india-2414994-2023-08-02",
-        "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202308/pawan-kalyan-and-sai-dharam-tejs--bro-023805-16x9.jpg?VersionId=0Lm3WZxQF04qu3I1BsDZuKAB87nkJ7uk",
-        "publishedAt": "2023-08-02T01:52:24Z",
-        "content": "By Janani K: Pawan Kalyan and Sai Dharam Tej-starrer 'BRO' is suffering at the box office during the weekdays. After a fantastic opening weekend, the box office collection of the film is seeing a con… [+1350 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "DNA India"
-        },
-        "author": "DNA Web Team",
-        "title": "Ayushmann Khurrana opens up on box office failure of his last four films: 'It's like a jigsaw puzzle' - DNA India",
-        "description": "Ahead of his upcoming release Dream Girl 2, Ayushmann Khurrana reflected on the box office failure of his last four films Chandigarh Kare Aashiqui, Anek, Doctor G, and An Action Hero.",
-        "url": "https://www.dnaindia.com/bollywood/report-ayushmann-khurrana-on-box-office-failure-of-his-last-four-films-anek-doctor-g-an-action-hero-dream-girl-2-3054244",
-        "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2023/08/02/2601740-ak-final.jpg",
-        "publishedAt": "2023-08-02T00:41:23Z",
-        "content": "Ahead of his upcoming release Dream Girl 2, Ayushmann Khurrana reflected on the box office failure of his last four films Chandigarh Kare Aashiqui, Anek, Doctor G, and An Action Hero. Ayushmann Khurr… [+2024 chars]"
+        "title": "'BRO' box office collection Day 6: Pawan Kalyan's film holds steady - India Today",
+        "description": "Pawan Kalyan and Sai Dharam Tej's 'BRO' is holding strong at the box office. The film crossed Rs 70 crore nett in India and is still doing great business.",
+        "url": "https://www.indiatoday.in/movies/regional-cinema/story/bro-box-office-collection-day-6-pawan-kalyans-film-holds-steady-2415493-2023-08-03",
+        "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202308/pawan-kalyan-and-sai-dharam-tejs-bro-teaser-out-295418-16x9.jpg?VersionId=cTTmmX0NNJOfu7sMkdxZDQ0iEkZbQvJB",
+        "publishedAt": "2023-08-03T02:04:26Z",
+        "content": "By Janani K: Power Star Pawan Kalyan and Sai Dharam Tej's 'BRO' is having a fantastic theatrical run after its release last week. The film grossed Rs 100 crore worldwide and has also surpassed the Rs… [+1550 chars]"
     },
     {
         "source": {
@@ -113,12 +87,25 @@ const MoviesStore = () => {
             "name": "Hindustan Times"
         },
         "author": "HT Entertainment Desk",
-        "title": "Karan Johar reveals where Rocky, Rani would live after marriage; teases a sequel - Hindustan Times",
-        "description": "Rocky Aur Rani Kii Prem Kahaani: Where do Ranveer Singh's Rocky and Alia Bhatt's Rani live after marriage? 'Definitely somewhere in Delhi', says Karan Johar. | Bollywood",
-        "url": "https://www.hindustantimes.com/entertainment/bollywood/karan-johar-ranveer-singh-alia-bhatt-after-marriage-rocky-aur-rani-kii-prem-kahaani-2-101690883444799.html",
-        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/01/1600x900/ranveer_singh_alia_bhatt_1690528725779_1690883839031.png",
-        "publishedAt": "2023-08-02T00:37:17Z",
-        "content": "Karan Johar was asked where Ranveer Singh's character Rocky and Alia Bhatt's Rani would live after they marry, and the filmmaker not only shared who could set up their home and where but also hinted … [+2651 chars]"
+        "title": "Ranveer Singh, Alia Bhatt surprise fans at Rocky Aur Rani screening. Watch - Hindustan Times",
+        "description": "Alia Bhatt and Ranveer Singh crashed a screening of the film Rocky Aur Rani Kii Prem Kahaani to get a feeler on how the film is being received. | Bollywood",
+        "url": "https://www.hindustantimes.com/entertainment/bollywood/ranveer-singh-alia-bhatt-surprise-fans-at-rocky-aur-rani-kii-prem-kahaani-screening-101691026038452.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/03/1600x900/rocky_aur_rani_kii_prem_kahaani_1691026260769_1691026260940.png",
+        "publishedAt": "2023-08-03T01:48:12Z",
+        "content": "On Tuesday, actors Ranveer Singh and Alia Bhatt paid a surprise visit to a theatre in Mumbai screening their new film Rocky Aur Rani Kii Prem Kahaani. They were joined by the film's director Karan Jo… [+1815 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "News18"
+        },
+        "author": "Dishya Sharma",
+        "title": "BLACKPINK Member Jisoo Is Dating Korean Actor Ahn Bo Hyun, YG Entertainment Confirms - News18",
+        "description": "Jisoo of BLACKPINK is dating South Korean actor Ahn Bo Hyun. The couple's agencies confirmed the news.",
+        "url": "https://www.news18.com/movies/blackpink-member-jisoo-is-dating-korean-actor-ahn-bo-hyun-yg-entertainment-confirms-8491417.html",
+        "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/08/jisoo-dating-ahn-bo-hyun-169102705216x9.jpg",
+        "publishedAt": "2023-08-03T01:45:06Z",
+        "content": "BLACKPINK member Jisoo is dating Yumis Cells and Itaewon Class actor Ahn Bo Hyun. The news has been confirmed by Jisoos agency, YG Entertainment, and Ahn Bo Hyuns agency FN Entertainment. In a statem… [+1196 chars]"
     },
     {
         "source": {
@@ -126,11 +113,37 @@ const MoviesStore = () => {
             "name": "The Times of India"
         },
         "author": "Samir Jain",
-        "title": "Horoscope Today, August 2, 2023: Read your daily astrological predictions - Times of India - Times of India",
-        "description": "Horoscope(Old) News: Read daily horoscope predictions for August 2, 2023: Know all about the astrological events and influences that will be affecting each of the 12 zodia",
-        "url": "https://timesofindia.indiatimes.com/astrology/horoscope/horoscope-today-august-2-2023-read-your-daily-astrological-predictions/articleshow/102302968.cms",
-        "urlToImage": "https://static.toiimg.com/thumb/msid-102303322,width-1070,height-580,imgsize-8526,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        "publishedAt": "2023-08-01T23:30:00Z",
+        "title": "Horoscope Today, August 3, 2023: Read your daily astrological predictions - Times of India",
+        "description": "Horoscope(Old) News: Read daily horoscope predictions for August 3, 2023: Know all about the astrological events and influences that will be affecting each of the 12 zodia",
+        "url": "https://timesofindia.indiatimes.com/astrology/horoscope/horoscope-today-august-3-2023-read-your-daily-astrological-predictions/articleshow/102303695.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-102303596,width-1070,height-580,imgsize-11934,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2023-08-02T23:30:00Z",
+        "content": null
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Bollywood Hungama"
+        },
+        "author": "Bollywood Hungama",
+        "title": "Abhishek Bachchan starrer Ghoomer trailer to be out tomorrow! Watch teaser featuring Saiyami Kher - Bollywood Hungama",
+        "description": "Abhishek Bachchan starrer Ghoomer trailer to be out tomorrow! Watch teaser featuring Saiyami Kher . Bollywood News: Latest Bollywood News, Bollywood News Today, Bollywood Celebrity News, Breaking News, Celeb News, Celebrities News, Bollywood News Hindi, Hindi…",
+        "url": "https://www.bollywoodhungama.com/news/bollywood/abhishek-bachchan-starrer-ghoomer-trailer-tomorrow-watch-teaser-featuring-saiyami-kher/",
+        "urlToImage": "https://stat4.bollywoodhungama.in/wp-content/uploads/2023/08/Ghoomer_teaser.jpeg",
+        "publishedAt": "2023-08-02T19:38:49Z",
+        "content": null
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "etimes.in",
+        "title": "Rohit Roy reveals he recently called Karan Johar and asked, 'You say I am doing good work so why are you - IndiaTimes",
+        "description": "In his new interview, Rohit Roy revealed that he recently called Karan Johar and asked him why he wasn't casting him in his movies when he was praisin",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/rohit-roy-reveals-he-recently-called-karan-johar-and-asked-you-say-i-am-doing-good-work-so-why-are-you-not-giving-me-work/articleshow/102362853.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-102362815,width-1070,height-580,imgsize-68702,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2023-08-02T17:38:00Z",
         "content": null
     },
     {
@@ -139,38 +152,12 @@ const MoviesStore = () => {
             "name": "PINKVILLA"
         },
         "author": "Arpita Sarkar",
-        "title": "Kalki Koechlin opens up about facing backlash after having a baby out of wedlock: 'I was already divorced' - PINKVILLA",
-        "description": "Made In Heaven Actress Kalki Koechlin Opened Up About The Backlash That She And Her Partner Faced From Netizens After Welcoming Their Baby Out Of Wedlock.",
-        "url": "https://www.pinkvilla.com/entertainment/news/kalki-koechlin-opens-up-about-facing-backlash-after-having-a-baby-out-of-wedlock-i-was-already-divorced-1233408",
-        "urlToImage": "https://www.pinkvilla.com/images/2023-08/240764664_kalki-lead-1.jpg",
-        "publishedAt": "2023-08-01T19:47:12Z",
-        "content": "Kalki Koechlin is one of the most talented actresses in the film industry. Her acting skills prove she is one of a kind. The actress who is currently gearing up for the release of the upcoming Made I… [+2072 chars]"
-    },
-    {
-        "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
-        },
-        "author": "etimes.in",
-        "title": "Is Jee Le Zaraa being shelved after Priyanka Chopra's exit? This is what Zoya Akhtar has to say - IndiaTimes",
-        "description": "Reports have been doing the rounds that another leading lady may replace Priyanka Chopra in the all-female buddy road movie Jee Le Zaraa which will al",
-        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/is-jee-le-zaraa-being-shelved-after-priyanka-chopras-exit-this-is-what-zoya-akhtar-has-to-say/articleshow/102327753.cms",
-        "urlToImage": "https://static.toiimg.com/thumb/msid-102327740,width-1070,height-580,imgsize-57356,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-        "publishedAt": "2023-08-01T17:56:00Z",
-        "content": "Katrina Kaif has NOT opted out of Jee Le Zaraa - ExclusiveKatrina Kaif was rumoured to have walked out of Farhan Akhtar's film Jee Le Zaraa, after Priyanka Chopra opted out citing date issues."
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "PINKVILLA"
-        },
-        "author": "Harshika Bhatia",
-        "title": "Bigg Boss OTT 2 EXCLUSIVE: Aashika Bhatia opens up about being judged for her smoking addiction - PINKVILLA",
-        "description": "Bigg Boss OTT 2 Fame Aashika Bhatia, Who Was Recently Evicted From The Show Shared Her Thoughts On Being Judged For Her Smoking Addiction, In An Exclusive Interview With Pinkvilla.",
-        "url": "https://www.pinkvilla.com/tv/news/bigg-boss-ott-2-exclusive-aashika-bhatia-opens-up-about-being-judged-for-her-smoking-addiction-1233399",
-        "urlToImage": "https://www.pinkvilla.com/images/2023-08/882628991_untitled-design-44.jpg",
-        "publishedAt": "2023-08-01T17:52:29Z",
-        "content": "Bigg Boss OTT 2 is one of the most popular and loved reality shows in the entertainment industry, with immense twists and turns, that are captivating fans' eyes. The show is hosted and presented by S… [+2435 chars]"
+        "title": "Ranveer Singh is 'touched' with outpouring of love after playing Rocky in RRKPK: 'Beyond my imagination' - PINKVILLA",
+        "description": "Ranveer Singh, Who Played The Role Of Rocky Randhawa In Karan Johar's Rocky Aur Rani Kii Prem Kahaani, Has Been Receiving Immense Praise From Fans. Here's What The Actor Said!",
+        "url": "https://www.pinkvilla.com/entertainment/news/ranveer-singh-is-touched-with-outpouring-of-love-after-playing-rocky-in-rrkpk-beyond-my-imagination-1233595",
+        "urlToImage": "https://www.pinkvilla.com/images/2023-08/598422038_dhindhora-baje-re-lead-1.jpg",
+        "publishedAt": "2023-08-02T17:14:26Z",
+        "content": "Ranveer Singh is currently enjoying the success of his recently released Rocky Aur Rani Kii Prem Kahaani co-starring Alia Bhatt. Karan Johar's directorial has been showered with immense love and prai… [+2017 chars]"
     },
     {
         "source": {
@@ -178,64 +165,90 @@ const MoviesStore = () => {
             "name": "Hindustan Times"
         },
         "author": "HT Entertainment Desk",
-        "title": "Imran Khan leaves his comeback to the internet, promises return after ‘1M likes’ - Hindustan Times",
-        "description": "Imran Khan, best known for his acting debut Jaane Tu Kya Jaane Na, went on a sabbatical after the debacle of Katti Batti (2015). | Bollywood",
-        "url": "https://www.hindustantimes.com/entertainment/bollywood/imran-khan-leaves-comeback-to-internet-promises-return-to-acting-after-1m-likes-101690905524110.html",
-        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/01/1600x900/imran_khan_1690905829111_1690905837926.jpg",
-        "publishedAt": "2023-08-01T16:33:55Z",
-        "content": "Imran Khan, who made his acting debut with Abbas Tyrewala's 2008 romantic comedy Jaane Tu Ya Jaane Na, went on a sabbatical after Nikkhil Advani's 2015 dud Katti Batti. However, he has now hinted at … [+2241 chars]"
+        "title": "Sara says she doesn't care about criticism on her religious beliefs, outfits - Hindustan Times",
+        "description": "Sara Ali Khan recently asserted that although she appreciates criticism regarding work, she doesn't care about other's commenting on her personal matter. | Bollywood",
+        "url": "https://www.hindustantimes.com/entertainment/bollywood/sara-ali-khan-doesnt-care-about-criticism-on-religious-beliefs-outfits-101690992461831.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/08/02/1600x900/Sara-Ali-Khan_1690994890720_1690994890922.jpg",
+        "publishedAt": "2023-08-02T16:43:40Z",
+        "content": "Actor Sara Ali Khan recently talked about criticism and said she appreciates feedback when it comes to work. However, she doesn't care if people have any opinion regarding her personal matter-- choic… [+2265 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "123telugu.com"
+            "name": "DNA India"
+        },
+        "author": "DNA Web Team",
+        "title": "Dulquer Salmaan calls Sita Ramam his 'DDLJ', talks about romantic hero image: 'We have all been fans of Shah - DNA India",
+        "description": "Dulquer Salmaan opened up about the audience reception to his last blockbuster Sita Ramam and called it his Dilwale Dulhania Le Jayenge.",
+        "url": "https://www.dnaindia.com/entertainment/report-dulquer-salmaan-reveals-he-is-shah-rukh-khan-fan-calls-sita-ramam-his-dilwale-dulhania-le-jayenge-3054363",
+        "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2023/08/02/2601875-ddlj.jpg",
+        "publishedAt": "2023-08-02T16:21:54Z",
+        "content": "Dulquer Salmaan opened up about the audience reception to his last blockbuster Sita Ramam and called it his Dilwale Dulhania Le Jayenge. Actor Dulquer Salmaan garnered a lot of praise for his perform… [+1971 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "NDTV News"
         },
         "author": null,
-        "title": "Get ready Superstar cults; Jailer’s showcase to arrive tomorrow - 123telugu",
-        "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-        "url": "https://www.123telugu.com/mnews/get-ready-superstar-cults-jailers-showcase-to-arrive-tomorrow.html",
-        "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        "publishedAt": "2023-08-01T16:30:00Z",
-        "content": "Superstar Rajinikanth’s Jailer is all set to open big at the box office. Even without the trailer, the USA bookings are on fire. The action entertainer is directed by Nelson Dilipkumar of Kolamaavu K… [+675 chars]"
+        "title": "Keith Sequeira And Wife Rochelle Announce Pregnancy: \"We Can't Wait To Meet\" - NDTV Movies",
+        "description": "Soni Razdan wrote, \"Omg congratulations my dear ones\"",
+        "url": "https://www.ndtv.com/entertainment/keith-sequeira-rochelle-rao-sequeira-announce-pregnancy-through-beautiful-post-4263448",
+        "urlToImage": "https://c.ndtvimg.com/2023-08/2bct8ss8_alia-_625x300_02_August_23.jpg",
+        "publishedAt": "2023-08-02T16:08:02Z",
+        "content": "Image was shared on Instagram. (Courtesy: keithsequeira)\r\nMumbai (Maharashtra): Actors Keith Sequeira and Rochelle Rao Sequeira have good news to share with their fans. Well, the couple is all set to… [+1430 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Odishatv.in"
+            "name": "Gulte"
         },
-        "author": "Nitesh Kumar Sahoo",
-        "title": "Finally! Aditya Roy Kapur breaks silence on relationship with Ananya Panday after leaked vacay pics - OTV News",
-        "description": "When asked about their relationship, Aditya though not keen to open up about his personal life in front of the media, said that he is aware of the same.",
-        "url": "https://odishatv.in/news/entertainment/finally-aditya-roy-kapur-breaks-silence-on-relationship-with-ananya-panday-after-leaked-vacay-pics-211087",
-        "urlToImage": "https://images.odishatv.in/uploadimage/library/16_9/16_9_5/recent_photo_1690906077.webp",
-        "publishedAt": "2023-08-01T16:11:06Z",
-        "content": "The hype around the rumoured relationship between Bollywood actors Aditya Roy Kapur and Ananya Panday is quite high these days. The rumoured couple have been spotted multiple times spending time toge… [+1569 chars]"
+        "author": "Satya B",
+        "title": "Harris Magic for Nithiin love on Danger Pilla - Gulte",
+        "description": "https://youtu.be/pE7_Swt_iyk Young actor Nithiin is currently busy with the shoot of his next is with writer-director Vakkantam Vamsi tentatively titled ‘Nithiin 32.’ Happening beauty Sreeleela is playing the female lead. The makers announced film's title EXT…",
+        "url": "https://www.gulte.com/movienews/252825/harris-magic-for-nithiin-love-on-danger-pilla",
+        "urlToImage": "https://cdn.gulte.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-02-at-5.09.42-PM.jpeg",
+        "publishedAt": "2023-08-02T15:48:44Z",
+        "content": "Young actor Nithiin is currently busy with the shoot of his next is with writer-director Vakkantam Vamsi tentatively titled Nithiin 32. Happening beauty Sreeleela is playing the female lead.\r\nThe mak… [+1017 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Thedirect.com"
+            "name": "NDTV News"
         },
-        "author": "Sam Hargrave",
-        "title": "Loki Season 2: 14 Easter Eggs & Hidden Details In New Trailer - The Direct",
-        "description": "Loki Season 2's new trailer teased Jonathan Majors' Kang, Ke Huy Quan's character, and much more.",
-        "url": "https://thedirect.com/article/loki-season-2-easter-eggs-details",
-        "urlToImage": "https://images.thedirect.com/media/article_full/loki-trailer.jpg",
-        "publishedAt": "2023-08-01T15:49:52Z",
-        "content": "LokiSeason 2 just dropped an Easter egg-packed trailer with teases toward Jonathan Majors'Kang, Ke Huy Quan's new MCU character, and possibly even set the path to Avengers: The Kang Dynasty.\r\nAs Secr… [+9902 chars]"
+        "author": null,
+        "title": "Shraddha Kapoor Blushes As Fan Gets Down On His Knees, Offers Her Roses At Airport. Watch - NDTV Movies",
+        "description": "Touched by the gesture, Shraddha Kapoor shook hands with her fan and also posed with him for pictures",
+        "url": "https://www.ndtv.com/entertainment/shraddha-kapoor-blushes-as-fan-gets-down-on-his-knees-offers-her-roses-at-airport-watch-4263433",
+        "urlToImage": "https://c.ndtvimg.com/2023-08/ctuib9l8_alia-_625x300_02_August_23.jpg",
+        "publishedAt": "2023-08-02T15:45:58Z",
+        "content": "Fan greets Shraddha Kapoor at airport with a bouquet of red roses.\r\nNew Delhi: Shraddha Kapoor was pleasantly surprised when a fan came, bearing a bouquet of roses to gift her at the airport and also… [+1839 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Indiaforums.com"
+            "name": "Filmcompanion.in"
         },
-        "author": "Team India Forums",
-        "title": "Yeh Rishta Kya Kehlata Hai: Major twist ahead, Akshara is pregnant with Abhinav's child - India Forums",
-        "description": "A source from the set informs us that the makers have planned a major twist in the upcoming episode.",
-        "url": "https://www.indiaforums.com/article/yeh-rishta-kya-kehlata-hai-major-twist-ahead-akshara-is-pregnant-with-abhinavs-child_199024",
-        "urlToImage": "https://img.indiaforums.com/article/1200x675/19/9024-yeh-rishta-kya-kehlata-hai-major-twist-ahead-akshara-is-pregnant-with-abhinavs-child.jpg",
-        "publishedAt": "2023-08-01T15:35:00Z",
-        "content": "Star PlusYeh Rishta Kya Kehlata Hai is one of the longest and most popular running shows on India Television. The fairy tale romance of Akshara-Abhimanyu and the adorable chemistry between Pranali an… [+1065 chars]"
+        "author": "Team FC",
+        "title": "Jailer Trailer Talk: Rajinikanth Is The Deadly Tiger Muthuvel Pandian In Nelson's Action Film - FILM COMPANION",
+        "description": "Jailer is one of the most anticipated films of the year starring Superstar Rajinikanth in the lead. The team released the film's trailer, labelled 'showcase' to",
+        "url": "https://www.filmcompanion.in/trailer-talk/tamil-trailer/jailer-trailer-talk-rajinikanth-is-a-simple-man-with-a-deadly-past-in-nelsons-action-film-tamannaah-ramya-krishnan-mohanlal-shivarajkumar",
+        "urlToImage": "https://gumlet.assettype.com/filmcompanion%2F2023-08%2F6e97dead-8e2d-4a22-bec4-20b9d908e529%2FRajini_1.jpg?w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true",
+        "publishedAt": "2023-08-02T15:24:39Z",
+        "content": "Jailer is one of the most anticipated films of the year starring Superstar Rajinikanth in the lead. \r\nThe team released the film's trailer, labelled 'showcase' to satiate the anticipation of fans. Th… [+1286 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "NDTV News"
+        },
+        "author": null,
+        "title": "Javed Akhtar Goes To Court Over Summons In Case Filed By Kangana Ranaut - NDTV",
+        "description": "Veteran lyricist Javed Akhtar has approached a sessions court here against a summons issued against him by a magistrate in a case filed by actor Kangana Ranaut.",
+        "url": "https://www.ndtv.com/india-news/javed-akhtar-goes-to-court-over-summons-in-case-filed-by-kangana-ranaut-4263197",
+        "urlToImage": "https://c.ndtvimg.com/2023-02/r5413m38_javed-akhtar_625x300_21_February_23.jpg",
+        "publishedAt": "2023-08-02T14:38:37Z",
+        "content": "Javed Akhtar's plea claimed the order (for issuance of summons) has been passed \"erroneously\"\r\nMumbai: Veteran lyricist Javed Akhtar has approached a sessions court here against a summons issued agai… [+2986 chars]"
     },
     {
         "source": {
@@ -243,25 +256,12 @@ const MoviesStore = () => {
             "name": "The Times of India"
         },
         "author": "TIMESOFINDIA.COM",
-        "title": "Kiara Advani and Sidharth Malhotra's video dragging their luggage in Italy goes viral - Times of India",
-        "description": "A video of Kiara Advani and Sidharth Malhotra dragging their luggage has gone viral on social media. The actress is currently enjoying vacations with her husband in Italy and had uploaded a video of their fun time together on her Instagram handle. Th",
-        "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/kiara-advani-and-sidharth-malhotras-video-dragging-their-luggage-in-italy-goes-viral/videoshow/102324446.cms",
-        "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-102324446,imgsize-60894.cms",
-        "publishedAt": "2023-08-01T15:33:50Z",
-        "content": "Aug 01, 2023, 09:03PM ISTSource: etimes.inA video of Kiara Advani and Sidharth Malhotra dragging their luggage has gone viral on social media. The actress is currently enjoying vacations with her hus… [+961 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "123telugu.com"
-        },
-        "author": null,
-        "title": "Photo Moment: Team VD13/SVC54 celebrates Mrunal Thakur’s birthday - 123telugu",
-        "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-        "url": "https://www.123telugu.com/mnews/photo-moment-team-vd13-svc54-celebrates-mrunal-thakurs-birthday.html",
-        "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-        "publishedAt": "2023-08-01T15:30:00Z",
-        "content": "Vijay Deverakonda and Parasuram are working on a family entertainer currently. The duo joined hands after the blockbuster like Geetha Govindam, and hence there are solid expectations. Tentatively tit… [+740 chars]"
+        "title": "Adah Sharma rushed to a hospital just before 'Commando 2' promotional event - Times of India",
+        "description": "‘The Kerala Story’ actress Adah Sharma has been rushed to a hospital after she started vomiting just before a promotional event for her upcoming movie 'Commando 2'. The actress was taken to hospital's emergency and has been diagnosed with severe diar",
+        "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/adah-sharma-rushed-to-a-hospital-just-before-commando-2-promotional-event/videoshow/102358980.cms",
+        "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-102358980,imgsize-56858.cms",
+        "publishedAt": "2023-08-02T14:29:30Z",
+        "content": "Aug 02, 2023, 07:59PM ISTSource: etimes.inThe Kerala Story actress Adah Sharma has been rushed to a hospital after she started vomiting just before a promotional event for her upcoming movie 'Command… [+1082 chars]"
     }
   ]
 
